@@ -1,0 +1,25 @@
+h1
+{
+    background: rgb(255,124,0);
+    background: -webkit-linear-gradient(90deg, rgba(255,124,0,1) 13%, rgba(9,121,69,1) 59%, rgba(255,255,255,1) 81%);
+    font-size: 8em;
+    font-family: cursive;
+    position: relative;
+    top: 4em;
+    left: 16em; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+#screen
+{
+    font-size: 3em;
+    font-family: monospace;
+    position: relative;
+    top: 4em;
+    left: 16em;
+}
+.container
+{
+    display: flex;
+   
+}
