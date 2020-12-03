@@ -2,24 +2,30 @@ h1
 {
     background: rgb(255,124,0);
     background: -webkit-linear-gradient(90deg, rgba(255,124,0,1) 13%, rgba(9,121,69,1) 59%, rgba(255,255,255,1) 81%);
-    font-size: 8em;
+    font-size: 6vh;
     font-family: cursive;
     position: relative;
     top: 4em;
     left: 16em; 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    overflow:auto;
 } 
 #screen
 {
-    font-size: 3em;
+    font-size: 6vh;
     font-family: monospace;
     position: relative;
     top: 4em;
     left: 16em;
+    background-color: burlywood;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .container
 {
-    display: flex;
-   
+   background-color: rgb(29, 8, 48);
+   width: 320vh;
+   height: 96vh;
+   overflow: visible;
 }
