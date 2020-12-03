@@ -15,7 +15,7 @@ h1
 {
     font-size: 6vh;
     font-family: monospace;
-    position: relative;
+    position: absolute;
     top: 4em;
     left: 13em;
     background-color: burlywood;
