@@ -27,5 +27,5 @@ h1
    background-color: rgb(29, 8, 48);
    width: 320vh;
    height: 96vh;
-   overflow: visible;
+   overflow: auto;
 }
